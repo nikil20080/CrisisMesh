@@ -1,0 +1,40 @@
+com.crisismesh.app-lifecycle-viewmodel-savedstate-release-0 C:\Users\nikil\.gradle\caches\8.13\transforms\0930dd9c9f3371219de5544bb7fdf718\transformed\lifecycle-viewmodel-savedstate-release\res
+com.crisismesh.app-core-viewtree-1.0.0-1 C:\Users\nikil\.gradle\caches\8.13\transforms\0be2bef9a31cfbbb51f948212f6843db\transformed\core-viewtree-1.0.0\res
+com.crisismesh.app-lifecycle-viewmodel-release-2 C:\Users\nikil\.gradle\caches\8.13\transforms\1859db8a36a8ae015099bc9bb5d6652d\transformed\lifecycle-viewmodel-release\res
+com.crisismesh.app-lifecycle-livedata-core-2.9.4-3 C:\Users\nikil\.gradle\caches\8.13\transforms\1dd4cb555fce2178d256440323da9b78\transformed\lifecycle-livedata-core-2.9.4\res
+com.crisismesh.app-play-services-basement-18.4.0-4 C:\Users\nikil\.gradle\caches\8.13\transforms\1ebc0b95792477ffbb894e40f1a1a8ff\transformed\play-services-basement-18.4.0\res
+com.crisismesh.app-lifecycle-process-2.9.4-5 C:\Users\nikil\.gradle\caches\8.13\transforms\2906d8a624c61687e75b772f470f4eff\transformed\lifecycle-process-2.9.4\res
+com.crisismesh.app-savedstate-release-6 C:\Users\nikil\.gradle\caches\8.13\transforms\4bd53e4940b88bf512d3fb4cb1fc3172\transformed\savedstate-release\res
+com.crisismesh.app-savedstate-ktx-1.3.3-7 C:\Users\nikil\.gradle\caches\8.13\transforms\598008e03d199b0385c779c3894e9760\transformed\savedstate-ktx-1.3.3\res
+com.crisismesh.app-lifecycle-livedata-core-ktx-2.9.4-8 C:\Users\nikil\.gradle\caches\8.13\transforms\5be2eb4a49d207e49b0dc5e379d9d9ac\transformed\lifecycle-livedata-core-ktx-2.9.4\res
+com.crisismesh.app-profileinstaller-1.4.0-9 C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\res
+com.crisismesh.app-graphics-path-1.0.1-10 C:\Users\nikil\.gradle\caches\8.13\transforms\636297798c5fea4324c4cb8d8f363777\transformed\graphics-path-1.0.1\res
+com.crisismesh.app-foundation-release-11 C:\Users\nikil\.gradle\caches\8.13\transforms\63ff196a09fdd075d13991d6ee3fd42c\transformed\foundation-release\res
+com.crisismesh.app-core-ktx-1.17.0-12 C:\Users\nikil\.gradle\caches\8.13\transforms\6f1fd4156a67a4cf73e4978f76b40344\transformed\core-ktx-1.17.0\res
+com.crisismesh.app-activity-compose-1.11.0-13 C:\Users\nikil\.gradle\caches\8.13\transforms\7af48112d1ea42331c7b807c5a133691\transformed\activity-compose-1.11.0\res
+com.crisismesh.app-lifecycle-livedata-2.9.4-14 C:\Users\nikil\.gradle\caches\8.13\transforms\7f0bab70c1cdad9641763edc4d34120f\transformed\lifecycle-livedata-2.9.4\res
+com.crisismesh.app-ui-release-15 C:\Users\nikil\.gradle\caches\8.13\transforms\881f3ccaa27f4c65e52257ae890940c7\transformed\ui-release\res
+com.crisismesh.app-annotation-experimental-1.4.1-16 C:\Users\nikil\.gradle\caches\8.13\transforms\8f99c544ae8c800cd74b4d586f7a44a1\transformed\annotation-experimental-1.4.1\res
+com.crisismesh.app-core-1.17.0-17 C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\res
+com.crisismesh.app-lifecycle-runtime-release-18 C:\Users\nikil\.gradle\caches\8.13\transforms\9c2b85ce5b7f1e8d35abfcd05ab11827\transformed\lifecycle-runtime-release\res
+com.crisismesh.app-lifecycle-runtime-compose-release-19 C:\Users\nikil\.gradle\caches\8.13\transforms\a34e8813187e0086429dc590589f962f\transformed\lifecycle-runtime-compose-release\res
+com.crisismesh.app-activity-1.11.0-20 C:\Users\nikil\.gradle\caches\8.13\transforms\a4f5916a4c1b96319dc9a3d90bc29dbb\transformed\activity-1.11.0\res
+com.crisismesh.app-customview-poolingcontainer-1.0.0-21 C:\Users\nikil\.gradle\caches\8.13\transforms\a5c2830433ccd89afdbadde4d60ae3fc\transformed\customview-poolingcontainer-1.0.0\res
+com.crisismesh.app-core-runtime-2.2.0-22 C:\Users\nikil\.gradle\caches\8.13\transforms\c7345e03c3ac17c3e0f9e3d301d3fcc9\transformed\core-runtime-2.2.0\res
+com.crisismesh.app-startup-runtime-1.1.1-23 C:\Users\nikil\.gradle\caches\8.13\transforms\cdc775e003082002dcafe77f4d7100dd\transformed\startup-runtime-1.1.1\res
+com.crisismesh.app-tracing-1.2.0-24 C:\Users\nikil\.gradle\caches\8.13\transforms\d362595379307465e7fccf02cc979c29\transformed\tracing-1.2.0\res
+com.crisismesh.app-lifecycle-viewmodel-ktx-2.9.4-25 C:\Users\nikil\.gradle\caches\8.13\transforms\e156407ec8562716e4c7186e1b8d9107\transformed\lifecycle-viewmodel-ktx-2.9.4\res
+com.crisismesh.app-emoji2-1.4.0-26 C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\res
+com.crisismesh.app-material3-27 C:\Users\nikil\.gradle\caches\8.13\transforms\f39d95ec36bff5efcbb5cd78f8d70eb9\transformed\material3\res
+com.crisismesh.app-ui-graphics-release-28 C:\Users\nikil\.gradle\caches\8.13\transforms\f6d26ea511d61ecd5e3f9c51f0bd6401\transformed\ui-graphics-release\res
+com.crisismesh.app-play-services-nearby-19.3.0-29 C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\res
+com.crisismesh.app-activity-ktx-1.11.0-30 C:\Users\nikil\.gradle\caches\8.13\transforms\f75dc7b4457965f59d23af009a9cf093\transformed\activity-ktx-1.11.0\res
+com.crisismesh.app-play-services-base-18.5.0-31 C:\Users\nikil\.gradle\caches\8.13\transforms\f767e71f355970678104cd2f51335f07\transformed\play-services-base-18.5.0\res
+com.crisismesh.app-pngs-32 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\generated\res\pngs\debug
+com.crisismesh.app-resValues-33 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\generated\res\resValues\debug
+com.crisismesh.app-updated_navigation_xml-34 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\generated\updated_navigation_xml\debug
+com.crisismesh.app-packageDebugResources-35 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.crisismesh.app-packageDebugResources-36 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.crisismesh.app-debug-37 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.crisismesh.app-debug-38 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\debug\res
+com.crisismesh.app-main-39 C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\res
