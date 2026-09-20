@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.crisismesh.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.crisismesh.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.crisismesh.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.crisismesh.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.crisismesh.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.crisismesh.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]
