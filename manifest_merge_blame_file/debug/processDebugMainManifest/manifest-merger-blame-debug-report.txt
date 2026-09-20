@@ -1,0 +1,246 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.crisismesh.app"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Nearby Connections (Bluetooth + Wi-Fi, no internet needed) -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:5:5-76
+12-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission
+14-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:7:5-95
+15        android:name="android.permission.BLUETOOTH"
+15-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:7:22-65
+16        android:maxSdkVersion="30" />
+16-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:7:66-92
+17    <uses-permission
+17-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:8:5-101
+18        android:name="android.permission.BLUETOOTH_ADMIN"
+18-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:8:22-71
+19        android:maxSdkVersion="30" />
+19-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:8:72-98
+20    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+20-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:9:5-73
+20-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:9:22-70
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+21-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:10:5-78
+21-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:10:22-75
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:11:5-76
+22-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:11:22-73
+23    <uses-permission
+23-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:12:5-125
+24        android:name="android.permission.NEARBY_WIFI_DEVICES"
+24-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:12:22-75
+25        android:usesPermissionFlags="neverForLocation" />
+25-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:12:76-122
+26
+27    <!-- GPS location -->
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:15:5-79
+28-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:15:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:16:5-81
+29-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:16:22-78
+30
+31    <!-- Voice calls -->
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:19:5-71
+32-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:19:22-68
+33    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+33-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:20:5-80
+33-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:20:22-77
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:21:5-66
+34-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:21:22-63
+35
+36    <!-- Background running and alerts -->
+37    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+37-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:24:5-77
+37-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:24:22-74
+38    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+38-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:25:5-81
+38-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:25:22-78
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:26:5-68
+39-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:26:22-65
+40    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+40-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:27:5-78
+40-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:27:22-75
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+41-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:28:5-77
+41-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:28:22-74
+42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+42-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:29:5-94
+42-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:29:22-91
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+43-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:30:5-86
+43-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:30:22-83
+44    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+44-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:31:5-88
+44-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:31:22-85
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+45-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:6:5-79
+45-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:6:22-76
+46
+47    <permission
+47-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+48        android:name="com.crisismesh.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.crisismesh.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+52
+53    <application
+53-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:33:5-56:19
+54        android:allowBackup="false"
+54-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:34:9-36
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.17.0] C:\Users\nikil\.gradle\caches\8.13\transforms\9101be4ba1dd4781f2d8f8f8948c3e1e\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+56        android:debuggable="true"
+57        android:extractNativeLibs="false"
+58        android:icon="@mipmap/ic_launcher"
+58-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:35:9-43
+59        android:label="@string/app_name"
+59-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:37:9-41
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:36:9-54
+61        android:supportsRtl="true"
+61-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:38:9-35
+62        android:testOnly="true"
+63        android:theme="@style/Theme.CrisisMesh" >
+63-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:39:9-48
+64        <activity
+64-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:41:9-50:20
+65            android:name="com.crisismesh.app.MainActivity"
+65-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:42:13-41
+66            android:exported="true"
+66-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:43:13-36
+67            android:launchMode="singleTop"
+67-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:44:13-43
+68            android:windowSoftInputMode="adjustResize" >
+68-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:45:13-55
+69            <intent-filter>
+69-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:46:13-49:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:47:17-69
+70-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:47:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:48:17-77
+72-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:48:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <service
+76-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:52:9-55:83
+77            android:name="com.crisismesh.app.MeshService"
+77-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:53:13-40
+78            android:exported="false"
+78-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:54:13-37
+79            android:foregroundServiceType="connectedDevice|location|microphone" />
+79-->C:\Users\nikil\OneDrive\Desktop\heck fileder\CrisisMesh_v3\CrisisMesh\app\src\main\AndroidManifest.xml:55:13-80
+80        <service
+80-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:9:9-214
+81            android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
+81-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:9:18-97
+82            android:exported="true"
+82-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:9:98-121
+83            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+83-->[com.google.android.gms:play-services-nearby:19.3.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f72790e317f1be070f033a8a1f266b4a\transformed\play-services-nearby-19.3.0\AndroidManifest.xml:9:122-211
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f767e71f355970678104cd2f51335f07\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f767e71f355970678104cd2f51335f07\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f767e71f355970678104cd2f51335f07\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nikil\.gradle\caches\8.13\transforms\f767e71f355970678104cd2f51335f07\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\1ebc0b95792477ffbb894e40f1a1a8ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\1ebc0b95792477ffbb894e40f1a1a8ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\1ebc0b95792477ffbb894e40f1a1a8ff\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.crisismesh.app.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\ec590f2aaec2d2af6fb0abf8fbf98be9\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\nikil\.gradle\caches\8.13\transforms\2906d8a624c61687e75b772f470f4eff\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\nikil\.gradle\caches\8.13\transforms\2906d8a624c61687e75b772f470f4eff\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\nikil\.gradle\caches\8.13\transforms\2906d8a624c61687e75b772f470f4eff\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <receiver
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+111            android:directBootAware="false"
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+112            android:enabled="true"
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+113            android:exported="true"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+114            android:permission="android.permission.DUMP" >
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+122                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+125                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\nikil\.gradle\caches\8.13\transforms\61be3d9a1f3ba14a39987346e34f8812\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+126            </intent-filter>
+127        </receiver>
+128    </application>
+129
+130</manifest>
